@@ -3,7 +3,7 @@
   }
   
   .dashboard-card {
-    position: relative;
+    position: absolute;
     top: 15px;
     left: 15px;
     right: 15px;
@@ -15,17 +15,8 @@
     top: 5px;
     right: 10px;
   }
-  .dias-semana {
-    font-size: large;
-    text-align: start;
-  }
   
   .dashboard-card-content {
-    text-align: left;
+    text-align: center;
   }
   
-  mat-grid-tile {
-    background-color: cyan;
-    color: white;
-
-  }
